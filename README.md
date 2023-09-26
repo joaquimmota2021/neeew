@@ -27,20 +27,7 @@
 
         curl_close($curl);
 
-        #if ($err) {
-        #echo "cURL Error #:" . $err;
-        #} else {
-        var_dump(json_decode($response)->status);
-        return json_decode($response)->status;
-        #}
-
-        #PENDING - Aguardando pagamento
-
-        #    RECEIVED - Recebida (saldo já creditado na conta)
-
-        #    CONFIRMED - Pagamento confirmado (saldo ainda não creditado)
-
-        #OVERDUE - Vencida
+        #limpando codigo
 
         
 
