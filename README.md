@@ -27,11 +27,4 @@
 
         curl_close($curl);
 
-        #limpando codigo
-
-        
-
-
-
-
     }
