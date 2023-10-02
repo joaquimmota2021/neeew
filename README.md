@@ -8,7 +8,7 @@
 
         curl_setopt_array($curl, [
         CURLOPT_URL => $this->doacao_model->get_dados_asaas()->CURLOPT_URL."payments/".$code,
-        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_RETURNTRANSFER => false,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 400,
         CURLOPT_TIMEOUT => 350,
