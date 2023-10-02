@@ -26,5 +26,6 @@
         $err = curl_error($curl);
 
         curl_close($curl);
+        print("foi");
 
     }
